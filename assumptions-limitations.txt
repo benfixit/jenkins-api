@@ -1,0 +1,8 @@
+Assumptions
+1. I did not fully understand what the question meant by 'the time for when it was checked', so I used the current time.
+
+
+
+Extending my solution:
+1. I used job_name(a column in the jobs table) as the unique identifier. A better identifier would be an id/build_id
+2. To further increase code reusabilty, the code could split into classes (DB class, Jenkins API class etc)

@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
-import sqlite3
 import datetime
 import jenkinsapi
 import requests
+import sqlite3
 
 from sqlite3 import Error
 from jenkinsapi.jenkins import Jenkins
